@@ -1,0 +1,387 @@
+
+
+@media (min-width:425px){
+    .map{
+        max-width: 400px;
+    }
+    .map-app{
+        width: 100%;
+    }
+    .paper-style{
+        padding: 8px 12px;
+    }
+    .paper-shape{
+        margin-right: 31.5px;
+    }
+    .paper-house{
+        margin-right: 31.5px;
+    }
+    .poster-post{
+        margin-right: 31.5px;
+    }
+}
+@media (min-width:768px){
+    .empty-div{
+        display: none;
+    }
+    .banner-top{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+    .redpage-login-data{
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+    }
+    .redpage-open-text{
+        line-height: 20px;
+        font-size: 18px;
+    }
+    .redpage-open{
+        min-height: 40px;
+    }
+    .redpage-login-text{
+        font-size: 18px;
+
+    }
+    .redpage-login-icon{
+        font-size: 18px;
+        line-height: 22px;
+        color: #606060ff;
+    }
+    .redpage-login{
+        top: 0px;
+        margin-top: 0px;
+    }
+    .redpage-flex{
+        flex-grow: 1;
+        margin-top: auto;
+    }
+    .discover-restaurants{
+        max-width: 350px;
+        letter-spacing: 0px;
+        font-size: 22px;
+        line-height: 28px;
+        margin-top: 0px;
+    }
+    .redpage-doordash {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    
+
+    .redpage-button-img{
+        border-radius: 9999px;
+        color: #ffffffff;
+
+    }
+    .redpage-right-button{
+        background: #eb1700ff;
+    }
+    .redpage-img{
+        height: 650px;
+        background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png);
+         padding: 0px 8px;
+
+    }
+    .redpage-enter-input{
+        display: flex;
+        flex-grow: 1;
+        width: 100%;
+    
+    }
+    .redpage-searching-field{
+        padding: 8px 8px 8px 20px;
+        min-width: 352px;
+    }
+
+    .redpage-searching-input{
+        display: unset;
+    }
+    .redpage-searching-radius{
+        min-width: 408px;
+    }
+    .map{
+        display: none;
+    }
+    .paper{
+        margin: 0px auto;
+    }
+    .paper-style{
+        align-items: center;
+        margin:  0;
+        padding: 0;
+    }
+    .paper-container{
+        margin: 32px 0px 52px 0px;
+        padding: 8px 12px;
+    }
+    .paper-shape{
+        margin-right: 64px;
+    }
+    .paper-scooty{
+        height: 124px;
+        width: 124px;
+    }
+    .paper-house{
+        margin-right: 64px;
+    }
+    .paper-house-Merchant{
+        height: 124px;
+        width: 124px;
+    }
+    .poster-post{
+        margin-right: 64px;
+    }
+    .poster-post-phone{
+        height: 124px;
+        width: 124;
+
+    }
+    .cup-custom{
+        flex-direction: row-reverse;
+        margin-bottom: -61px;
+        max-width: 1184px;
+        gap: 60px;
+        
+    }
+    .cup-post{
+        width: 100%;
+        height: 500px;
+        margin: -20px 0px 6px;
+    }
+    .cup-post-head{
+        font-size:40px;
+        line-height: 40px;
+        margin-top: auto;
+    }
+    .cup-post-sidelines{
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .cup-post-linesstep{
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+    .cup-post-gap{
+        margin-top: 30px;
+    }
+    .cup-doordash-link{
+        min-height: 40px;
+
+    }
+    .cup-text{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .cup-post-second{
+        height: 500px;
+    }
+    .cup-space{
+        flex-direction: row;
+    }
+    .cup-padding{
+          padding-top: 85px;
+    }
+    .cup-margintop{
+        margin-top: 20px;
+    }
+    .cup-headtop{
+        margin-top: 20px;
+    }
+
+    .cup-lazyload{
+        margin: 0;
+    }
+    .notice-img{
+        height: 600px;
+    }
+    .cup-bottom{
+        padding-bottom: 86px;
+
+    }
+    .notice-shade-img{
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .notice-head{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .notice-content{
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .notice-paraghraph{
+        font-size: 16px;
+        line-height:22px;
+    }
+    .notice-margin{
+        margin-top: 30px;
+    }
+    .notice-site{
+        min-height: 40px;
+    }
+    .notice-site-text{
+        font-size: 16px;
+        line-height:
+    }
+    .kid-custom{
+        display: flex;
+        flex-direction: row-reverse;
+        padding-top: 60px;
+        margin-bottom: -40px;
+        gap: 60px;
+    }
+    .kid-img{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        
+    }
+    .kid-head{
+        margin: 0px;
+        margin-top: 25px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .kid-paragraph{
+        margin-top: 20px; 
+        font-size:16px;
+        line-height: 22px;
+    }
+    .kid-site{
+        margin-top: 30px;
+    }
+    .kid-site-link{
+        min-height:40px;
+    }
+    .kid-site-shop{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .sea-box{
+        margin-top: 5px;
+        padding: 60px 20px 40px;
+    }
+    .sea-box-text{
+        max-width: 500px;
+        font-size: 32px;
+        line-height:40px;
+    }
+    .sea-shape{
+        max-width: 50%;
+        min-width: 50%;
+        width: 100%;
+        overflow-x: hidden;
+        align-items: center;
+        margin: 0;
+    }
+    .sea-container{
+        display: flex;
+        flex-flow: wrap;
+        width: 100%;
+        max-width: 1184px;
+    }
+    .sea-picture{
+        position: relative;
+        min-height: 344px;
+    }
+    .sea-post-one{
+        /* position: absolute; */
+        inset: 0px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+    .sea-post-one::after{
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+    }
+    .sea-main-head{
+        text-align: center;
+        max-width: 90%;
+        margin-top: 20px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .sea-content{
+        text-align: center;
+        margin-top: -13px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .sea-site{
+        min-height:40px;
+    }
+    .sea-font{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .sea-margin{
+        margin-top: 30px;
+    }
+    .sea-enjoy{
+        font-family: 'medium';
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    .cup-margin-three{
+        padding: 60px 20px 40px;
+    }
+    .cup-margin-head{
+        max-width: 500px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .margin-top{
+        max-width: 90%;
+        margin-top: 20px
+    }
+    .post-margin{
+        margin: 0px 0px 6px; 
+    }
+    .margin-top2{
+        margin-top: 20px;
+    }
+    .direction{
+        flex-direction:row
+    }
+    .padding-cup{
+        padding-top: 85px;
+        padding-bottom: 25px;
+    }
+    .country-container{
+        max-width: 1130px;
+        padding: 109px 0;
+    }
+    .country-heading{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .country-topics{
+        padding-bottom: 0px;
+    }
+    .country-topic-second{
+        padding-bottom: 0px;
+    }
+    .country-topic-third{
+        padding-bottom: 0px;
+    }
+    
+    
+
+}
