@@ -1,5 +1,8 @@
 
 
+
+
+/* 
 @media (min-width:425px){
     .map{
         max-width: 400px;
@@ -296,7 +299,7 @@
         min-height: 344px;
     }
     .sea-post-one{
-        /* position: absolute; */
+        position: absolute;
         inset: 0px;
         width: 100%;
         height: 100%;
@@ -381,7 +384,5 @@
     .country-topic-third{
         padding-bottom: 0px;
     }
-    
-    
 
-}
+} 
