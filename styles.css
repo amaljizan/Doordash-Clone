@@ -1,8 +1,12 @@
 /*varibles*/
 :root{
     --grid--gap:8px;
-    
-
+}
+.desktop{
+    display: none;
+}
+.mobile{
+    display: block;
 }
 body{
     margin: 0px;
@@ -111,19 +115,98 @@ body{
     justify-content: flex-start;
     flex-direction: row;
 }
-.banner-text-lnline svg:first-child{
+.banner-star-one{
+    margin-right: 2px;
+    margin-left: 2px;
+    flex-shrink: 0;
+}
+.banner-star-two{
+    margin-right: 2px;
+    margin-left: 0px;
+    flex-shrink: 0;
+}
+.banner-rating{
+    margin-left: 4px;
+    color: #606060ff;
+    font-family:'medium';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.01px;
+}
+.banner-open{
+    flex-shrink: 0;
+    align-self: center;
+    grid-area: 2 / 3;
+    position: relative;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+    min-height: 32px;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 9999px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: #eb1700ff;
+    color: #fff;
+}
+.banner-text-open{
+    padding: 0px 12px;
+    font-family: 'bold';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+}
+.red-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.red-image{
+    background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_mobile.png);
+    height: 550px;
+    padding: 0px 8px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    justify-content: center;
+    background-size: cover;
+    background-position: center center;
+}
+.red-doordash{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.red-doordash-logo{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.doordash-logo-text{
+    line-height: 0;
+    margin-left: 8px;
+}
+/* .banner-text-lnline svg:first-child{
     margin: 0px 2px;
 }
-
 .banner-text-lnline svg{
     margin-left: 0px;
-    
 }
-
 .banner-text-rating{
     margin-left: 4px !important;
     font-family: 'medium';
-}
+} */
 /* .banner-main{
     position: relative;
     z-index: 0;
