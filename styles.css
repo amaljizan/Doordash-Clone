@@ -87,7 +87,6 @@ body{
     color: #191919ff;
     font-family: 'bold';
     font-size: 16px;
-    font-weight: 700;
     line-height: 22px;
     letter-spacing: -0.01px;
     text-decoration: none;
@@ -158,8 +157,8 @@ body{
     padding: 0px 12px;
     font-family: 'bold';
     font-size: 16px;
-    font-weight: 700;
     line-height: 22px;
+    letter-spacing: -0.01px;
 }
 .red-main{
     display: flex;
@@ -196,6 +195,76 @@ body{
 .doordash-logo-text{
     line-height: 0;
     margin-left: 8px;
+}
+.redpage-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.redpage-restaurants{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.discover-restaurants{
+    font-family: Helvetica;
+    font-weight: 900;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    max-width: 750px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    line-height: 28px;
+}
+.redpage-member{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 79px;
+    margin-top: 16px;
+    z-index: 1;
+    padding-left: 16px;
+    padding-right: 24px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+.repage-login{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    max-width: 100%;
+    display: inline-flex;
+    min-height: 32px;
+    width: auto;
+    color: #191919ff;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 9999px;
+    border: none;
+    text-align: center;
+    background-color: #ffffffff;
+    text-decoration: none;
+
+}
+.redpage-login-text{
+    display: flex;
+    min-width: 0px;
+    font-family: 'medium';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    max-width: 100%;
+    padding: 12px;
+    letter-spacing: -0.01px;
+    flex-grow: 2;
 }
 /* .banner-text-lnline svg:first-child{
     margin: 0px 2px;
