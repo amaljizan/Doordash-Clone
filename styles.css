@@ -379,23 +379,48 @@ body{
     margin-top: 16px;
     position: relative;
     max-width: 100%;
-    margin: 0px;
     padding: 0px;
     display: inline-flex;
     min-height: 32px;
     width: auto;
     align-items: center;
-    -webkit-box-pack: start;
     justify-content: flex-start;
     border-radius: 9999px;
     border: none;
     text-decoration: none;
     text-align: center;
     background-color: #fff;
-    box-shadow: inset 0 0 0 var(--usage-border-width-default) var(--usage-color-transparent-default), var(--usage-elevation-2);
-    color: var(--usage-color-text-default);
+    color: #191919ff;
 }
-
+.redpage-contact-space{
+    padding: 0px 12px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.redpage-contact-icon{
+    flex-shrink: 0;
+}
+.redpage-text-login{
+    margin-left: 4px;
+    width: 100%;
+    font-family: 'bold';
+    color: currentcolor;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.01px    ;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+    display: block;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    justify-content: center;
+}
 /* .banner-text-lnline svg:first-child{
     margin: 0px 2px;
 }
