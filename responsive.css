@@ -5,6 +5,18 @@
     .mobile{
         display: none;
     }
+    .red-image{
+        height: 650px;
+        background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_mobile.png);
+        padding: 0px 8px;
+    }
+    .red-doordash {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .redpage-flex{
+        flex-grow: 1;
+    }
 }
 
 
