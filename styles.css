@@ -8,6 +8,12 @@
 .mobile{
     display: block;
 }
+.lap{
+    display: none;
+}
+.phone{
+    display: none;
+}
 body{
     margin: 0px;
     padding: 0px;
@@ -84,6 +90,8 @@ body{
     white-space: normal;
 }
 .banner-head{
+    flex-direction: row;
+    display: flex;
     color: #191919ff;
     font-family: 'bold';
     font-size: 16px;
@@ -325,7 +333,18 @@ body{
     border: none;
     background-color:#fff;
 }
+input::placeholder {
+    color: rgb(96, 96, 96);
+  }
 .redpage-search-icon{
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    max-width: 100%;
+}
+.redpage-search-icon2{
     margin-right: 12px;
     display: flex;
     align-items: center;
@@ -375,7 +394,7 @@ body{
     align-items: center;
     justify-content: center;
 }
-.redpage-contact{
+.redpage-contact-phone{
     margin-top: 16px;
     position: relative;
     max-width: 100%;
@@ -391,6 +410,24 @@ body{
     text-align: center;
     background-color: #fff;
     color: #191919ff;
+    box-shadow: inset 0 0 0 1px #19191900, 0px 2px 8px 0px #19191933;
+}
+.redpage-contact{
+    margin-top: 16px;
+    position: relative;
+    max-width: 100%;
+    padding: 0px;
+    min-height: 32px;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 9999px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: #fff;
+    color: #191919ff;
+    box-shadow: inset 0 0 0 1px #19191900, 0px 2px 8px 0px #19191933;
 }
 .redpage-contact-space{
     padding: 0px 12px;
@@ -414,7 +451,23 @@ body{
     text-decoration: none;
     text-transform: none;
     text-align: center;
-    display: block;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    justify-content: center;
+}
+.redpage-text-sign{
+    margin-left: 4px;
+    width: 100%;
+    font-family: 'bold';
+    color: currentcolor;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.01px    ;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
     text-overflow: ellipsis;
     max-width: 100%;
     overflow: hidden;
