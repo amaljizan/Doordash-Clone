@@ -117,6 +117,16 @@
     .redpage-search-icon2{
         margin-right: 96px;
     }
+    .paper-main{
+        margin: 32px 0;
+    }
+    .paper-card-img{
+        margin-right: 64px;
+    }
+    .paper-img{
+        height: 124px;
+        width: 124px;
+    }
 }
 @media (min-width:769px){
     .discover-restaurants{
@@ -142,6 +152,39 @@
     .doordash-logo-type{
         width: 155;
         height: 18;
+    }
+}
+@media (min-width: 1184px){
+    .paper-main{
+        max-width: 1184px;
+        margin: 96px 0;
+    }
+    .paper-contents{
+        flex-direction: row;
+    }
+    .paper-card{
+        flex-flow: column;
+        margin: 0px;
+    }
+    .paper-card-img{
+        display: flex;
+        flex-flow: column;
+    }
+    .paper-img{
+        height: 154px;
+        width: 154px;
+    }
+    .paper-content{
+        min-height: 160px;
+    }
+    .papper-pg{
+        margin-top: 8px;
+    }
+    .paper-logo-card{
+        justify-content: center;
+    }
+    .paper-logo-text{
+        font-size: 18px;
     }
 }
 
