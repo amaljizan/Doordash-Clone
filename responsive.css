@@ -158,6 +158,7 @@
     .paper-main{
         max-width: 1184px;
         margin: 96px 0;
+        padding: 12px;
     }
     .paper-contents{
         flex-direction: row;
@@ -169,6 +170,8 @@
     .paper-card-img{
         display: flex;
         flex-flow: column;
+        justify-content: center;
+        align-items: center;
     }
     .paper-img{
         height: 154px;
@@ -177,14 +180,19 @@
     .paper-content{
         min-height: 160px;
     }
-    .papper-pg{
+    .paper-pg{
         margin-top: 8px;
+        text-align: center;
     }
     .paper-logo-card{
         justify-content: center;
+        margin: 13px 0 0 0;
     }
     .paper-logo-text{
         font-size: 18px;
+    }
+    .paper-head{
+        text-align: center;
     }
 }
 
