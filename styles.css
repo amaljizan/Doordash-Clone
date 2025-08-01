@@ -688,7 +688,64 @@ input::placeholder {
 .paper-logo-svg{
     flex-shrink: 0;
 }
-
+.map-main{
+    width: 100%;
+}
+.map-card{
+    margin-bottom: -300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-width: 90%;
+    align-items: center;
+}
+.map-card-img{
+    width: 100%;
+}
+.map-img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.map-content{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.map-head{
+    text-align: left;
+    max-width: 90%;
+    margin-top: 20px;
+    color: #191919ff;
+    font-family: 'bold';
+   font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+}
+.map-side-head{
+    text-align: left;
+    margin-top: 10px;
+    color: #191919ff;
+    font-family: 'bold';
+   font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+}
+.map-pg{
+    text-align: left;
+    margin-top: 10px;
+    color: #191919ff;
+    font-family: 'medium';
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+}
 /* .banner-text-lnline svg:first-child{
     margin: 0px 2px;
 }
