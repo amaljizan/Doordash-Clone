@@ -715,14 +715,16 @@ input::placeholder {
 .map-head{
     text-align: left;
     max-width: 90%;
-    margin-top: 20px;
+    font-weight: 500;
     color: #191919ff;
     font-family: 'bold';
-   font-size: 24px;
+    font-size: 24px;
     line-height: 28px;
     letter-spacing: -0.01px;
     text-decoration: none;
     text-transform: none;
+    margin-block-start: 25px;
+    margin-block-end: 0px;
 }
 .map-side-head{
     text-align: left;
@@ -745,6 +747,108 @@ input::placeholder {
     letter-spacing: -0.01px;
     text-decoration: none;
     text-transform: none;
+}
+.map-button-gap{
+    display: inline-flex;
+    min-height: 32px;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 9999px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: #eb1700ff;
+    box-shadow: inset 0 0 0 1px #19191900;
+    color: #ffffffff;
+}
+.map-button{
+    padding: 0px 12px;
+    color: currentcolor;
+    font-family: 'bold';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.map-gap{
+    margin-top: 20px;
+}
+.cup-card{
+    background-color: rgb(254, 241, 238);
+    padding: 320px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    min-width: 90%;
+    align-items: center;
+}
+.cup-card-img{
+    width: 100%;  
+}
+.cup-img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.cup-content{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.cup-head{
+    text-align: left;
+    max-width: 90%;
+    font-weight: 500;
+    color: #191919ff;
+    font-family: 'bold';
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+    margin-block-start: 24.5px;
+    margin-block-end: 0px;
+}
+.cup-pg{
+    text-align: left;
+    margin-top: 10.5px;
+    color: #191919ff;
+    font-family: 'medium';
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+}
+.cup-button-gap{
+    display: inline-flex;
+    min-height: 32px;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 9999px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: #eb1700ff;
+    box-shadow: inset 0 0 0 1px #19191900;
+    color: #ffffffff;
+}
+.cup-button{
+    padding: 0px 12px;
+    color: currentcolor;
+    font-family: 'bold';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: -0.01px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.cup-gap{
+    margin-top: 20px;
 }
 /* .banner-text-lnline svg:first-child{
     margin: 0px 2px;
