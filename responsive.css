@@ -283,16 +283,27 @@
     }
     .map-card{
         max-width: unset;
+        padding: 21px;
+    }
+    .map-card-img{
+        width: unset;
+    }
+    .map-head {
+        margin-top: 25px;
     }
     .cup-card{
         max-width: unset;
-    }
-    /* .map-card-img{
-        width: unset;
+        padding: 79px 20px 20px;
+
     }
     .cup-card-img{
-        width: unset;
+        width:724px;
+    }
+    /* .cup-head {
+        margin-top: 25px;
     } */
+    
+
 }
 
 
