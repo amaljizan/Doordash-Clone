@@ -850,6 +850,54 @@ input::placeholder {
 .cup-gap{
     margin-top: 20px;
 }
+.shop-card{
+    background: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/grocery_desktop.png) center center / cover;
+    position: relative;
+    height: 350px;
+}
+.shop-shade{
+    background-color: rgba(30, 30, 30, 0.6);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    text-align: center
+}
+.shop-content{
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+}
+.shop-head{
+    text-align: center;
+    color: white;
+    max-width: 90%;
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: 'bold';
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+}
+.shop-side-head{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: 'medium';
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+}
 /* .banner-text-lnline svg:first-child{
     margin: 0px 2px;
 }
